@@ -1,0 +1,9 @@
+TCP/UDP-coms
+Create ComEngine to handle sending and receiving messages over the internet
+Create ComHandler to further abstract the engine inte function calls for different things
+Use an interface so that modules are easy to exchange
+
+Create a server that will handle coms and logg everything
+Create DBEngine to handle coms with the database
+Create DBHandler to make the engine run through function calls
+Again use interface to make the modules easy to replace
